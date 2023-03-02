@@ -42,9 +42,11 @@ To set the identity only in current repository , remove --global and run below c
  git config user.name "Your Name"
  ```
  
- ```PHP 
- git config user.password "your password"
- ``
+  ```PHP 
+  git config user.password "your password"
+ ```
+ 
+
 
 
 
