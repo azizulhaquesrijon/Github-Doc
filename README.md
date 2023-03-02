@@ -45,12 +45,8 @@ To set the identity only in current repository , remove --global and run below c
  ```PHP 
  git config user.password "your password"
  ``
-<br>
 
-5.Check after setup 
 
- ```PHP 
- git config --list
- ``
+
 
 
