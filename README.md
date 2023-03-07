@@ -47,6 +47,33 @@ To set the identity only in current repository , remove --global and run below c
  ```
  
 
+5. <b>CREATE NEW BRANCH AND PUSH</b>
+
+
+ ```PHP 
+ git init
+ ```
+
+ ```PHP 
+ git checkout -b srijon_new
+ ```
+ 
+  ```PHP 
+  git remote add origin https://github.com/Crafty-Urban/Baazrr.git
+ ```
+ 
+  ```PHP 
+ git add .
+ ```
+ 
+  ```PHP 
+ git commit -m "Added"  
+ ```
+ 
+   ```PHP 
+ git push -u origin srijon_new  
+ ```
+
 
 
 
