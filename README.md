@@ -95,7 +95,7 @@ To set the identity only in current repository , remove --global and run below c
  git checkout srijon_new 
  ```
  
- c. Merge from srijon_current to srijon new branch-
+ c. Merge from srijon_current to srijon_new branch-
   
    
   ```PHP 
