@@ -75,7 +75,56 @@ To set the identity only in current repository , remove --global and run below c
  ```
 
 
+5. <b>WORK IN A BRANCH AND PUSH FROM ANOTHER(2 branch in local but 1 in github)</b>
 
+ a. Check branch -
+ 
+ ```PHP 
+ git branch  
+ ```
+
+ b. Create new branch named srijon_new-
+
+ ```PHP 
+ git checkout -b srijon_new 
+ ```
+ 
+  b. Change branch (srijon_new changed branch name)-
+
+ ```PHP 
+ git checkout srijon_new 
+ ```
+ 
+ c. Merge from srijon_current to srijon new branch-
+  
+   
+  ```PHP 
+ git add .
+ ```
+ 
+  ```PHP 
+ git commit
+ ```
+ 
+  ```PHP 
+ git commit -m "Added"  
+ ```
+ 
+   ```PHP 
+ git checkout srijon_new    
+ ```
+
+  ```PHP 
+  git merge srijon_current    
+ ```
+ 
+   ```PHP 
+ git push -u origin srijon_new    
+ ```
+  
+   ```PHP 
+ git checkout srijon_current     
+ ```
 
 
 
